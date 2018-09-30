@@ -4,36 +4,6 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
 
-h1.titulo,h2.sub_titulo{
-    text-align: center;
-    font-family: Arial;
-    color: white;
-}
-
-/*background dos botões em lista e alinhamento de palavras*/
-.lista_links{
-    text-align: center;
-    padding:2%;
-    margin-right: 10px;
-
-}
-.lista_links li {
-    text-align: center;
-    font-size: 17px;
-    display: inline-block;
-    margin: 5px;
-    padding: 4px;
-    background-color: white;
-    border: 5px solid white;
-    border-radius: 10px;
-    
-}
-.lista_links li a{
-   text-decoration: none;
-   font-family: Arial;
-   margin-right: 10px;
-}
-
 body {
 	font-family: sans-serif;
 	background-color: #ffffce; 
@@ -53,17 +23,17 @@ header h2{
 	font-family: 'Source Serif Pro', serif;
 	font-size: 13pt;	
 	color: #606000;
-	margin: 0px;
+	margin: 5px;
 }
 
 hgroup img{
 	position: absolute;	
 	left: 900px;
-	top: 280px;
+	top: 220px;
 
 }
 
-li i{
+li a{
 	color:#0404B4	;
 	margin-right: : 0px;
 	padding: 10px;
@@ -79,7 +49,7 @@ ul.cursos{
 	width: 1300px;
 	float: center;
 	padding: 5px;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-left: 20px;
 	
 	 			
