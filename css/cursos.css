@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
 
 body {
 	font-family: sans-serif;
@@ -6,10 +9,27 @@ body {
 	color: rgba(0,0,0,1);
 }
 
-h2{
-	color: 	blue;
-	text-align: justify;
-	text-indent: 50px;
+header#cabecalho h1{
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 0px; 
+}
+
+
+header#cabecalho h2{
+	font-family: 'Source Serif Pro', serif;
+	font-size: 13pt;	
+	color: #606000;
+	margin: 0px;
+}
+
+header#cabecalho img#icone{
+	position: absolute;	
+	left: 920px;
+	top: 50px;
+
 }
 
 li{
@@ -17,10 +37,10 @@ li{
 }
 
 ul.cursos{
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Courgette', cursive;
 	font-size: 17pt;
 	color: #888888;
-	text-shadow: 2px 2px 2px rgba(0,0,0,.6);	 
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);	 
 	display: block;
 	width: 1300px;
 	float: center;
