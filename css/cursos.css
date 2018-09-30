@@ -1,7 +1,38 @@
-@charset "UTF-8";
+@charset "UTF-8";	
 @import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
 @import url('https://fonts.googleapis.com/css?family=Courgette');
+
+
+h1.titulo,h2.sub_titulo{
+    text-align: center;
+    font-family: Arial;
+    color: white;
+}
+
+/*background dos botões em lista e alinhamento de palavras*/
+.lista_links{
+    text-align: center;
+    padding:2%;
+    margin-right: 10px;
+
+}
+.lista_links li {
+    text-align: center;
+    font-size: 17px;
+    display: inline-block;
+    margin: 5px;
+    padding: 4px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    
+}
+.lista_links li a{
+   text-decoration: none;
+   font-family: Arial;
+   margin-right: 10px;
+}
 
 body {
 	font-family: sans-serif;
@@ -25,18 +56,21 @@ header h2{
 	margin: 0px;
 }
 
-header img{
+hgroup img{
 	position: absolute;	
-	left: 920px;
-	top: 50px;
+	left: 900px;
+	top: 280px;
 
 }
 
-li{
-	padding: 5px;
+li i{
+	color:#0404B4	;
+	margin-right: : 0px;
+	padding: 10px;
 }
 
-ul{
+
+ul.cursos{
 	font-family: 'Courgette', cursive;
 	font-size: 17pt;
 	color: #888888;
@@ -44,19 +78,21 @@ ul{
 	display: block;
 	width: 1300px;
 	float: center;
-	padding: 10px;
-	margin-top: 10px;
-	margin-left: 10px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-left: 20px;
+	
 	 			
 }
 
 footer{
-	clear: both;
-	border-top: 2px solid #606060;
+    background-color:  rgba(37, 37, 37, 0.5);
+    text-align: center;
+    padding: 10px;
 }
 
-footer p{
-	text-align: center;
-
+header{
+    background-color: rgba(42, 56, 79);
+    border: initial;
+    padding: 2%;
 }
-
