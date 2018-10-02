@@ -6,41 +6,16 @@
 
 body {
 	font-family: sans-serif;
-	background-color: #ffffce; 
 	color: rgba(0,0,0,1);
 }
 
-header h1{
-	font-family: 'Chakra Petch', sans-serif;
-	font-size: 20pt;
-	color: #606060;
-	margin-bottom: 0px;
-	margin-top: 0px; 
-}
-
-
-header h2{
-	font-family: 'Source Serif Pro', serif;
-	font-size: 13pt;	
-	color: #606000;
-	margin: 5px;
-}
-
-hgroup img{
-	position: absolute;	
-	left: 900px;
-	top: 220px;
-
-}
-
-li a{
+.cursos li a{
 	color:#0404B4	;
-	margin-right: : 0px;
-	padding: 10px;
+	text-decoration: none;
 }
 
 
-ul.cursos{
+ul.cursos {
 	font-family: 'Courgette', cursive;
 	font-size: 17pt;
 	color: #888888;
@@ -51,18 +26,10 @@ ul.cursos{
 	padding: 5px;
 	margin-top: 10px;
 	margin-left: 20px;
-	
-	 			
+	text-decoration: none;	 		
 }
 
-footer{
-    background-color:  rgba(37, 37, 37, 0.5);
-    text-align: center;
-    padding: 10px;
-}
-
-header{
-    background-color: rgba(42, 56, 79);
-    border: initial;
-    padding: 2%;
+img.internet{
+float: right;
+margin: 23px 0px;
 }
